@@ -11,18 +11,56 @@
 </head>
 
 <body>
-    <div class="Food">
+    <div class="appbar">
         <h1> My Food Recipe </h1>
     </div>
-    <img src="https://d21klxpge3tttg.cloudfront.net/wp-content/uploads/2022/05/Japanese-A5-Rib-Eye-Sesame-Salt-Grilled-Rice-Cakes.jpg">
-
+    <img
+        src="https://img.freepik.com/premium-photo/fresh-grilled-meat-grilled-beef-steak-medium-rare-black-angus-rib-eye-steak-set-wooden-serving-board-with-white-beans-rosemary-cast-iron-pan-black-wooden-table-background_249006-12262.jpg?w=2000">
     <h2>Steak</h2>
     <h3>Ingredient</h3>
-    </ol>
+    <ul>
+        <li>
+            <div>
+                <div>Garlic</div>
+                <div>14g</div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <div>Onion</div>
+                <div>151g</div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <div>worcestershire sauce</div>
+                <div>22g</div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <div>cayenne pepper</div>
+                <div>2g</div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <div>parsley</div>
+                <div>17g</div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <div>Soy sauce</div>
+                <div>117g</div>
+            </div>
+        </li>
+</ul>
+<h3>How to cook</h3>
 </body>
 
 <style>
-    *,
+
     html,
     body {
         font-family: Quicksand;
@@ -34,20 +72,36 @@
     html {
         background-color: white;
     }
+
     body {
         display: flex;
         flex-direction: column;
         padding-bottom: 32px;
     }
+
     h1 {
         color: black;
+        padding: 16px;
     }
+
+    h2,
     h3 {
         padding: 16px;
     }
+
     img {
         width: 100vw;
         aspect-ratio: 1;
         object-fit: cover;
-        margin-bottom: 16px;
+        margin-bottom: 16px; 
     }
+
+    ul li div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+</style>
+
+</html>
+    
