@@ -14,9 +14,11 @@
     <div class="appbar">
         <h1> My Food Recipe </h1>
     </div>
+    <div class="content">
     <img
         src="https://img.freepik.com/premium-photo/fresh-grilled-meat-grilled-beef-steak-medium-rare-black-angus-rib-eye-steak-set-wooden-serving-board-with-white-beans-rosemary-cast-iron-pan-black-wooden-table-background_249006-12262.jpg?w=2000">
-    <div class="stages">   
+    </div>
+    <div class="text">   
     <h2>Steak</h2>
     <h3>Ingredient</h3>
     <ul>
@@ -77,6 +79,7 @@
         <li>Serve the steak whole or carved into slices</li>
     </ol>
     </div>
+    </div>
     </body>
 </body>
 
@@ -116,7 +119,15 @@
         margin-bottom: 16px;
     }
 
-    .appbar {}
+    .appbar {
+        padding: 16px;
+        background-color: #FAFAFA;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
     ul li div {
         display: flex;
         justify-content: space-between;
@@ -128,9 +139,8 @@
         padding-left: 48px;
     }
     div.stages {
-            flex-direction: column;
+            font-display: column;
         }
-    div.content,
     div.text {
         display: flex;
         flex-direction: column;
